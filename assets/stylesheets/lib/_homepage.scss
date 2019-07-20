@@ -1,0 +1,56 @@
+html{
+    background: rgb(209, 206, 206);
+}
+
+// header
+
+.header{
+    background: rgb(170, 162, 162);
+    width: 100%;
+    height: 5rem;
+    // position: absolute;
+}
+.main-heading{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: beige;
+
+}
+
+// wrapper
+.wrapper{
+    width: 80%;
+}
+
+//content
+
+.border{
+    background: rgb(209, 206, 206);
+    border-bottom: 1px solid #AAA2A2;
+    width: 100%;
+    font-size: 2rem;
+    padding: 10px 10px;
+}
+//button
+.btn{
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    color: #AAA2A2;
+    background: beige;
+}
+.btn:hover{
+    color: beige;
+    background: #AAA2A2;
+}
+
+//footer
+.footer{
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    background: #AAA2A2;
+    color: beige;
+    justify-content: flex-end;
+    align-items: center;   
+}
